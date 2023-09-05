@@ -1,38 +1,88 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Verdana, sans-serif;
+  text-align: center;
   margin: 0;
   padding: 0;
+  background-color: #040404;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 20px;
+  padding-top: 20px;
+}
+
+.white {
+  color: #fff;
+}
+
+.black {
+  color: #040404;
+}
+
+.orange {
+  color: #e6a842;
+}
+
+svg.white {
+  fill: #fff;
+}
+
+svg.orange {
+  fill: #e6a842;
 }
 
 header {
-  background-color: #040404;
-  color: #ffffff;
+  background-color: #e6a842;
+  color: #fff;
   padding: 10px 0;
 }
 
-header h1 {
+header h2 {
   margin: 0;
 }
 
+h2 {
+  font-family: Verdana, sans-serif;
+}
+
 nav ul {
-  list-style: none;
   padding: 0;
-  display: flex;
+  display: inline-block;
+  list-style: none;
 }
 
 nav ul li {
   margin-right: 20px;
+  float: left;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #ffffff;
+  color: #e6a842;
+}
+
+#menu .container {
+  background-color: #040404;
+  padding: 1em;
+  color: #fff;
+  width: 800px;
+  min-height: 600px;
+  max-width: 80%;
+  border-image: url('assets/menu_border.png') 200 fill / 30px / 30px space;
+}
+
+.item .title {
+  color: #e6a842;
+  font-size: 25px;
+}
+
+.item .fries {
+  color: #e6a842;
+}
+
+.item h4 {
+  margin: 0;
 }
 
 section {
@@ -40,11 +90,20 @@ section {
 }
 
 section h2 {
-  color: #040404;
+  color: #fff;
 }
 
-section a {
-  color: #e6a842;
+a, a:visited, a:hover, a:active {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+#social .container a:not(:first-child) {
+  margin-left: 10px;
+}
+
+#social .container a:hover {
+  opacity: 0.5;
 }
 
 footer {
@@ -52,4 +111,8 @@ footer {
   color: #ffffff;
   text-align: center;
   padding: 10px 0;
+}
+
+footer p {
+  margin-top: 50px;
 }
