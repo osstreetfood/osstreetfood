@@ -6,6 +6,40 @@ body {
   background-color: #040404;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.center {
+  text-align: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -21,7 +55,11 @@ body {
 }
 
 .orange {
-  color: #e6a842;
+  color: #f8bf05;
+}
+
+.yellow {
+  color: #fcda09;
 }
 
 svg.white {
@@ -29,11 +67,12 @@ svg.white {
 }
 
 svg.orange {
-  fill: #e6a842;
+  fill: #f8bf05;
 }
 
 header {
-  background-color: #e6a842;
+  background: rgb(252,218,9);
+  background: radial-gradient(circle, rgba(252,218,9,1) 0%, rgba(248,191,5,1) 50%);
   color: #fff;
   padding: 10px 0;
 }
@@ -59,7 +98,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #e6a842;
+  color: #f8bf05;
 }
 
 #menu .container {
@@ -73,12 +112,12 @@ nav ul li a {
 }
 
 .item .title {
-  color: #e6a842;
-  font-size: 25px;
+  color: #f8bf05;
+  font-size: 23px;
 }
 
 .item .fries {
-  color: #e6a842;
+  color: #f8bf05;
 }
 
 .item h4 {
@@ -93,6 +132,11 @@ section h2 {
   color: #fff;
 }
 
+#open .hours {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 a, a:visited, a:hover, a:active {
   text-decoration: none;
   color: #ffffff;
@@ -102,7 +146,7 @@ a, a:visited, a:hover, a:active {
   margin-left: 10px;
 }
 
-#social .container a:hover {
+a:hover {
   opacity: 0.5;
 }
 
