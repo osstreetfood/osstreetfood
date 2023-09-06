@@ -10,9 +10,16 @@ body {
   box-sizing: border-box;
 }
 
+/** Safari */
+@media not all and (min-resolution: 0.001dpcm) {
+  #menu .container {
+    border-image: url('assets/menu_border_scaled.png') 22 fill / 30px / 30px round !important;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .column {
-    width: 100%;
+    width: 100% !important;
   }
 }
 
@@ -108,7 +115,7 @@ nav ul li a {
   width: 800px;
   min-height: 600px;
   max-width: 80%;
-  border-image: url('assets/menu_border.png') 200 fill / 30px / 30px space;
+  border-image: url('assets/menu_border.png') 200 fill / 30px / 30px round;
 }
 
 .item .title {
