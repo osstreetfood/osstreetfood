@@ -13,7 +13,13 @@ body {
 /** Safari */
 @media not all and (min-resolution: 0.001dpcm) {
   #menu .container {
-    border-image: url('assets/menu_border_scaled.png') 22 fill / 30px / 30px round !important;
+    border-image: url('assets/menu_border_scaled.png') 30 fill / 30px / 30px round !important;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  #menu .container {
+    border-image: url('assets/menu_border_scaled.png') 30 fill / 30px / 30px round !important;
   }
 }
 
