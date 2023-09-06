@@ -29,6 +29,24 @@ body {
   }
 }
 
+#find {
+  padding-bottom: 0;
+  padding-top: 60px;
+}
+
+.button {
+  background-color: #040404;
+  border: solid #f8bf05 3px;
+  color: white;
+  padding: 15px 32px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border-radius: 30px;
+}
+
 .column {
   float: left;
   width: 50%;
@@ -143,6 +161,10 @@ section {
 
 section h2 {
   color: #fff;
+}
+
+#open {
+  padding-top: 0;
 }
 
 #open .hours {
