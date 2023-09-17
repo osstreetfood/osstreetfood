@@ -142,6 +142,10 @@ nav ul li a {
   border-image: url('assets/menu_border.png') 200 fill / 30px / 30px round;
 }
 
+.item {
+  margin-top: 1em;
+}
+
 .item .title {
   color: #f8bf05;
   font-size: 23px;
@@ -153,6 +157,15 @@ nav ul li a {
 
 .item h4 {
   margin: 0;
+}
+
+.item .ingredients {
+  margin: 0;
+  display: inline-flex;
+}
+
+.item .ingredients a {
+  margin-left: 5px;
 }
 
 section {
