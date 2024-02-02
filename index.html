@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="row">
@@ -18,11 +19,11 @@
         <hr class="menu-section-title-underline">
         <ul class="menu-item-list">
           <li class="menu-item">
-            <div class="menu-item-name">CHEESE BURGER<span class="menu-item-price">79:-</span></div>
+            <div class="menu-item-name">CHEESE BURGER <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">79:-</span></div>
             <div class="menu-item-description">Ketchup, senap, cheddarost, lök, saltgurka</div>
           </li>
           <li class="menu-item">
-            <div class="menu-item-name">TRUFFLE BURGER<span class="menu-item-price">89:-</span></div>
+            <div class="menu-item-name">TRUFFLE BURGER <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">89:-</span></div>
             <div class="menu-item-description">Tryffelmayo, cheddarost, saltgurka, pepperjackost, rostad lök, picklad rödlök</div>
           </li>
           <li class="menu-item">
@@ -30,7 +31,7 @@
             <div class="menu-item-description">Majo, BBQ-sauce, cheddarost, röda jalapeños, rostad lök, baconjam (kalv)</div>
           </li>
           <li class="menu-item">
-            <div class="menu-item-name">SPICY CANDY<span class="menu-item-price">89:-</span></div>
+            <div class="menu-item-name">SPICY CANDY <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">89:-</span></div>
             <div class="menu-item-description">Adobo Sauce, smokey cheddar sauce, cheddarost, candied jalapeños, lök, chili cheese</div>
           </li>
           <li class="menu-item">
@@ -38,6 +39,7 @@
             <div class="menu-item-description">Chili N’ Honeymayo, candied bacon (kalv), rödlök</div>
           </li>
         </ul>
+        <div id="veggie"><img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/> = Går att få vegetarisk</div>
       </div>
       <div id="extras" class="menu-section">
         <span class="menu-section-title">EXTRAS</span>
@@ -82,26 +84,147 @@
         </ul>
       </div>
     </div>
-    <div class="column background-color-yellow">
-      <div class="menu-section">
-        <span class="menu-section-title">BURGERS</span>
+    <div class="column center background-color-yellow">
+        <img id="logo" src="assets/logo.svg"></img>
+        <div id="find" ><a class="button" href="https://www.google.com/maps/place/O%E2%80%99s+Street+Food/@57.7407066,12.0768519,17z/data=!3m1!4b1!4m6!3m5!1s0x464ff5538a0332ff:0xec9b750895edf884!8m2!3d57.7407066!4d12.0794268!16s%2Fg%2F11kq9l9q3d?entry=ttu" target="_blank">HITTA HIT</img></a></div>
+        <div id="open-hours"><span>ÖPPETTIDER</span><br>TIS - FRE 11-20<br>LÖR 12 - 20<br>SÖN 12 - 18</div>
+        <img id="lunch" src="assets/lunch.svg"></img>
+        <div id="great-vibes">Great Vibes at O's</div>
+        <div id="offers">MENY (RF + DRICKA)<br>+40:-<br><br>MENY (FB + DRICKA)<br>+65:-</div>
+        <a id="follow" href="https://www.instagram.com/os_streetfood/" tilte="Follow us on Instagram" target="_blank"><img src="assets/follow.svg"></img></a>
+    </div>
+    <div class="column background-color-black">
+      <div id="fries-and-sides" class="menu-section">
+        <span class="menu-section-title">FRIES & SIDES</span>
         <hr class="menu-section-title-underline">
         <ul class="menu-item-list">
           <li class="menu-item">
-            <div class="menu-item-name">CHEESE BURGER <span class="menu-item-price">79:-</span></div>
-            <div class="menu-item-description">Ketchup, senap, cheddarost, lök saltgurka</div>
+            <div class="menu-item-name">REGULAR FRIES <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">30:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">MIXED FRIES <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">39:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">SWEET FRIES <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">45:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">FRIES BOX MAGICAL <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">55:-</span></div>
+            <div class="menu-item-description">GPS, rO’sA, ostsås, rödlök, gräslök</div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">FRIES BOX SPICY <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">55:-</span></div>
+            <div class="menu-item-description">Habanero, rO’sA, ostsås, röda jalapeños</div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">CHICKEN CAJUN BOX<span class="menu-item-price">69:-</span></div>
+            <div class="menu-item-description">Chili N’ honeymayo, chicken pops, ostsås, gräslök </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">CHICKEN NUGGETS (6+DIP)<span class="menu-item-price">55:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">CHICKEN POPS (8)<span class="menu-item-price">39:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">SPICY ONION RINGS (6) <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">39:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">CHILI CHEESE (4) <img class="veggie-logo" src="assets/veggie.svg" alt="Går att få vegetarisk"/><span class="menu-item-price">39:-</span></div>
+            <div class="menu-item-description"></div>
           </li>
         </ul>
       </div>
-    </div>
-    <div class="column background-color-black">
-      <div class="menu-section">
-        <span class="menu-section-title">BURGERS</span>
+      <div id="drinks-and-shakes" class="menu-section">
+        <span class="menu-section-title">DRINKS & SHAKES</span>
         <hr class="menu-section-title-underline">
         <ul class="menu-item-list">
           <li class="menu-item">
-            <div class="menu-item-name">CHEESE BURGER <span class="menu-item-price">79:-</span></div>
-            <div class="menu-item-description">Ketchup, senap, cheddarost, lök saltgurka</div>
+            <div class="menu-item-name">COCA COLA<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">COLA ZERO<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">PEPSI MAX<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">FANTA<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">FANTA EXOTIC<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">SPRITE<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">BONAQUA<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">AQUADOR<span class="menu-item-price">19:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name"><span style="color: #33be01">M</span><span style="color: #ffcb30">E</span><span style="color: #f80303">R</span><span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+        </ul>
+      </div>
+      <div id="sauces-and-dips" class="menu-section">
+        <span class="menu-section-title">SAUCES & DIPS</span>
+        <hr class="menu-section-title-underline">
+        <ul class="menu-item-list">
+          <li class="menu-item">
+            <div class="menu-item-name">RO'sA<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">GPS<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">HABANERO<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">CHEDDAR<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">HONEY & CHILI<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">SWEET ADOBO<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">BBQ<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">MAYO<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">O's FRESH<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-item-name">TRUFFLE<span class="menu-item-price">15:-</span></div>
+            <div class="menu-item-description"></div>
           </li>
         </ul>
       </div>

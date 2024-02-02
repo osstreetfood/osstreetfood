@@ -8,6 +8,7 @@ body {
   display: grid;
   grid-auto-rows: 1fr;
   grid-template-columns: 37% 26% 37%;
+  min-height: 100vh;
 }
 
 .column {
@@ -25,6 +26,14 @@ body {
   border-right: 1vw solid #ffcb30;
 }
 
+.column.center {
+  text-align: center;
+}
+
+.column.center img{
+  max-width: 90%;
+}
+
 .background-color-black {
   background-color: #000000;
 }
@@ -40,6 +49,9 @@ body {
 .menu-section {
   color: #ffffff;
   font-size: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .menu-section-title {
@@ -49,8 +61,8 @@ body {
 }
 
 .menu-section-title-underline {
-  width: 3vw;
-  border: 0.5vw solid #ffcb30;
+  width: 4vw;
+  border: 0.3vw solid #ffcb30;
   margin-left: 0;
 }
 
@@ -71,4 +83,107 @@ body {
 
 .menu-item-price {
   float: right;
+}
+
+.veggie-logo {
+  width: 1em;
+}
+
+#burgers {
+  background-image: url("assets/burger.svg");
+}
+
+#street-food {
+  background-image: url("assets/taco.svg");
+}
+
+#kids {
+  background-image: url("assets/kids.svg");
+}
+
+#fries-and-sides {
+  background-image: url("assets/fries.svg");
+}
+
+#drinks-and-shakes {
+  background-image: url("assets/shake.svg");
+}
+
+#sauces-and-dips {
+  background-image: url("assets/sauce.svg");
+}
+
+#veggie {
+  font-size: 2vw;
+  padding: 2em 1em 3em 1em;
+}
+
+#open-hours {
+  font-size: 2vw;
+  color: #2e2e2e;
+  font-weight: bold;
+  padding: 2em 0 1em 0;
+}
+
+#open-hours span {
+  font-size: 3vw  ;
+}
+
+#great-vibes {
+ font-family: 'Dancing Script', cursive;
+ color: white;
+ font-size: 8vw;
+ text-align: center;
+ animation: glow 1s ease-in-out infinite alternate;
+}
+
+#offers {
+  font-size: 2vw;
+  color: #2e2e2e;
+  font-weight: bold;
+  padding: 2em 0 1em 0;
+}
+
+#follow img {
+  padding-top: 2em;
+}
+
+#follow:hover {
+  opacity: 0.5;
+}
+
+#find {
+  padding-bottom: 0.5em;
+  padding-top: 2em;
+  text-align: center;
+}
+
+#find img {
+  max-width: 1vw;
+}
+
+.button {
+  background-color: #ffcb30;
+  border: solid #2e2e2e 0.3vw;
+  color: #2e2e2e;
+  padding: 1vw 2vw;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 3vw;
+  border-radius: 3vw;
+}
+
+.button:hover {
+  opacity: 0.5;
+}
+
+@keyframes glow {
+  from{
+   text-shadow: 0 0 1vw #ff9725, 0 0 2vw #ff9725, 0 0 6vw #ff9725, 0 0 4vw #ff9725, 0 0 5vw #ff9725
+  }
+  to {
+    text-shadow: 0 0 6vw #ff9725, 0 0 7vw #ff9725;
+  }
 }
