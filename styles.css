@@ -89,6 +89,10 @@ body {
   width: 1em;
 }
 
+#logo {
+  margin-bottom: 1em;
+}
+
 #burgers {
   background-image: url("assets/burger.svg");
 }
@@ -152,27 +156,24 @@ body {
   opacity: 0.5;
 }
 
-#find {
-  padding-bottom: 0.5em;
-  padding-top: 2em;
+.button {
+  padding-top: 1rem;
   text-align: center;
 }
 
-#find img {
-  max-width: 1vw;
-}
-
-.button {
-  background-color: #ffcb30;
-  border: solid #2e2e2e 0.3vw;
-  color: #2e2e2e;
+.button a{
+  background-color: #2e2e2e;
+  border: solid #ffcb30 0.3vw;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding: 1vw 2vw;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 3vw;
+  font-size: 2vw;
   border-radius: 3vw;
+  width: 16vw;
 }
 
 .button:hover {
