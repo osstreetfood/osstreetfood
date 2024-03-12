@@ -19,11 +19,11 @@ body {
 }
 
 .row .column:first-child {
-  border-left: 1vw solid #ffcb30;
+  border-left: 1vw solid #FF9725;
 }
 
 .row .column:last-child {
-  border-right: 1vw solid #ffcb30;
+  border-right: 1vw solid #FF9725;
 }
 
 .column.center {
@@ -39,7 +39,7 @@ body {
 }
 
 .background-color-yellow {
-  background-color: #ffcb30;
+  background-color: #FF9725;
 }
 
 .menu-section {
@@ -55,14 +55,14 @@ body {
 }
 
 .menu-section-title {
-  color: #ffcb30;
+  color: #FF9725;
   font-weight: 700;
   font-size: 3vw;
 }
 
 .menu-section-title-underline {
   width: 4vw;
-  border: 0.3vw solid #ffcb30;
+  border: 0.3vw solid #FF9725;
   margin-left: 0;
 }
 
@@ -163,7 +163,7 @@ body {
 
 .button a{
   background-color: #2e2e2e;
-  border: solid #ffcb30 0.3vw;
+  border: solid #FF9725 0.3vw;
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   padding: 1vw 2vw;
