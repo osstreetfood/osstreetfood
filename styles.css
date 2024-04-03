@@ -68,7 +68,7 @@ body {
 
 .menu-item-list {
   list-style-type: none; 
-<font size="font siz">14</font>
+  font-size:14;
   padding: 0;
   padding-bottom: 1em;
   margin: 0;
