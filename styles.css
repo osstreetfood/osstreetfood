@@ -68,7 +68,9 @@ body {
 
 .menu-item-list {
   list-style-type: none; 
+  .smaller-font{
   font-size:14px;
+  }
   padding: 0;
   padding-bottom: 1em;
   margin: 0;
