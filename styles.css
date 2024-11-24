@@ -160,7 +160,17 @@ body {
 .button {
   padding-top: 1rem;
   text-align: center;
+
+{
+  .red {
+  color: red;
 }
+
+.blue {
+  color: blue;
+}
+
+
 
 .button a{
   background-color: #2e2e2e;
