@@ -161,13 +161,8 @@ body {
   padding-top: 1rem;
   text-align: center;
 
-{
-  .red {
-  color: red;
-}
 
-.blue {
-  color: blue;
+
 }
 
 
@@ -198,5 +193,12 @@ body {
   to {
     text-shadow: 0 0 6vw #ff9725, 0 0 7vw #ff9725;
   }
+}
+.red {
+  color: red;
+}
+
+.blue {
+  color: blue;
 }
 
