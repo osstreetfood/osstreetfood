@@ -160,12 +160,7 @@ body {
 .button {
   padding-top: 1rem;
   text-align: center;
-
-
-
 }
-
-
 
 .button a{
   background-color: #2e2e2e;
@@ -200,5 +195,37 @@ body {
 
 .blue {
   color: blue;
+}
+
+.progress-bar-container {
+    text-align: center;
+    background-color: black;
+    border-radius: 8px;
+    padding-top: 1vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar-container .progress-bar {
+    background-color: #fff;
+    border-radius: 25px;
+    height: 2vh;
+    margin: 1vh 0;
+    position: relative;
+    border: 3px solid white; /* White border added here */
+}
+
+.progress-bar-container .progress {
+    height: 100%;
+    width: 100%;
+/*  background-color: #6BBF4F; */
+/*  background-color: #F4C531; */
+/*  background-color: #D9534F; */
+    border-radius: 25px;
+}
+
+.progress-bar-container .message {
+    font-size: 18px;
+    font-weight: bold;
+    color: #d9534f;
 }
 
