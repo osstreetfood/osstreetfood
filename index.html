@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>O's Streetfood – Utby · Landala · TacO's</title>
+  <meta name="description" content="O's Streetfood i Göteborg – smash burgers, street food och birria tacos. Välj din restaurang: Utby, Landala eller TacO's.">
+  <link rel="icon" href="favicon.ico" sizes="16x16 32x32 48x48">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@400;500;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=9">
+</head>
+<body data-theme="os">
+
+  <!-- Startsida: restaurangval -->
+  <div id="landing" class="landing" hidden>
+    <div class="landing-inner">
+      <img class="landing-logo" src="assets/logos/os.webp" alt="O's Streetfood logotyp" width="140" height="124">
+      <h1 class="landing-title">Välj din <span class="accent">restaurang</span></h1>
+      <p class="landing-sub">Tre kök. Samma kärlek till street food.</p>
+      <div class="landing-cards">
+        <button class="landing-card" data-choice="utby" style="--i:0">
+          <img src="assets/img/hero-utby-800.jpg" alt="Friterad kycklingburgare hos O's Utby">
+          <span class="card-veil"></span>
+          <span class="card-text">
+            <img class="card-logo" src="assets/logos/os.webp" alt="" aria-hidden="true">
+            <span class="card-name">Utby</span>
+            <span class="card-desc">Smash burgers &amp; street food</span>
+          </span>
+        </button>
+        <button class="landing-card" data-choice="landala" style="--i:1">
+          <img src="assets/img/hero-landala-800.jpg" alt="Smashburgare hos O's Landala">
+          <span class="card-veil"></span>
+          <span class="card-text">
+            <img class="card-logo" src="assets/logos/os.webp" alt="" aria-hidden="true">
+            <span class="card-name">Landala</span>
+            <span class="card-desc">Smash burgers &amp; street food</span>
+          </span>
+        </button>
+        <button class="landing-card landing-card--tacos" data-choice="tacos" style="--i:2">
+          <img src="assets/img/hero-tacos-800.jpg" alt="Birria tacos hos TacO's">
+          <span class="card-veil"></span>
+          <span class="card-text">
+            <img class="card-logo card-logo--round" src="assets/logos/tacos.webp" alt="" aria-hidden="true">
+            <span class="card-name">Lindholmen</span>
+            <span class="card-desc">Birria tacos &amp; burritos</span>
+          </span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Restaurangvy: byggs av app.js -->
+  <div id="app" hidden></div>
+
+  <script src="js/menu-data.js?v=9"></script>
+  <script src="js/app.js?v=9"></script>
+</body>
+</html>
